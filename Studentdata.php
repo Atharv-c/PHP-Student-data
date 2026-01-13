@@ -1,3 +1,4 @@
+/*Check for Connection of Database*/
 <?php
 $conn = mysqli_connect("localhost", "root", "", "student");
 
@@ -34,3 +35,4 @@ if (mysqli_query($conn, $sql)) {
 mysqli_close($conn);
 
 ?>
+
